@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "static/css/main.199bedbe.chunk.css",
+    "main.js": "static/js/main.f0ecf4ce.chunk.js",
+    "main.js.map": "static/js/main.f0ecf4ce.chunk.js.map",
+    "runtime-main.js": "static/js/runtime-main.871f9a33.js",
+    "runtime-main.js.map": "static/js/runtime-main.871f9a33.js.map",
+    "static/css/2.6f60e7f3.chunk.css": "static/css/2.6f60e7f3.chunk.css",
+    "static/js/2.9cfc127f.chunk.js": "static/js/2.9cfc127f.chunk.js",
+    "static/js/2.9cfc127f.chunk.js.map": "static/js/2.9cfc127f.chunk.js.map",
+    "index.html": "index.html",
+    "precache-manifest.af0dbfbb607099398d30375dbc4b5a14.js": "precache-manifest.af0dbfbb607099398d30375dbc4b5a14.js",
+    "service-worker.js": "service-worker.js",
+    "static/css/2.6f60e7f3.chunk.css.map": "static/css/2.6f60e7f3.chunk.css.map",
+    "static/css/main.199bedbe.chunk.css.map": "static/css/main.199bedbe.chunk.css.map",
+    "static/media/住吧首页2_02.jpg": "static/media/住吧首页2_02.478e7dd5.jpg",
+    "static/media/住吧首页_02.jpg": "static/media/住吧首页_02.71baad73.jpg",
+    "static/media/住吧首页_05.jpg": "static/media/住吧首页_05.0b2d19d5.jpg",
+    "static/media/住吧首页_07.jpg": "static/media/住吧首页_07.a21fda0e.jpg",
+    "static/media/住吧首页_09.jpg": "static/media/住吧首页_09.259170a0.jpg",
+    "static/media/住吧首页_17.jpg": "static/media/住吧首页_17.1761e532.jpg",
+    "static/media/商城_02.jpg": "static/media/商城_02.b4ef1241.jpg",
+    "static/media/商城_05.jpg": "static/media/商城_05.e821d75e.jpg",
+    "static/media/商城_07.jpg": "static/media/商城_07.e682e5ff.jpg",
+    "static/media/我的 (1).png": "static/media/我的 (1).b3e3a55d.png",
+    "static/media/我的_02.jpg": "static/media/我的_02.6a3963bf.jpg",
+    "static/media/灵感_03.jpg": "static/media/灵感_03.508f6661.jpg",
+    "static/media/灵感_05.jpg": "static/media/灵感_05.2cff4dd3.jpg",
+    "static/media/index.css": "static/media/设置 (1).82f11858.png",
+    "static/media/灵感_16.jpg": "static/media/灵感_16.551f4ed3.jpg",
+    "static/media/灵感_17.jpg": "static/media/灵感_17.836b2adc.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.871f9a33.js",
+    "static/css/2.6f60e7f3.chunk.css",
+    "static/js/2.9cfc127f.chunk.js",
+    "static/css/main.199bedbe.chunk.css",
+    "static/js/main.f0ecf4ce.chunk.js"
+  ]
+}
