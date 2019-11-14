@@ -10,7 +10,7 @@ import kefu from './客服.png'
 import shoucang from './收藏.png'
 import guanzhu from './关注.png'
 import dizhi from './地址.png'
-
+import { NavBar, Icon, Tabs } from 'antd-mobile';
 const data = Array.from(new Array(9)).map((_val, i) => ({
   icon: 'https://gw.alipayobjects.com/zos/rmsportal/nywPmnTAvTmLusPxHPSu.png',
   text: `name${i}`,
@@ -29,10 +29,17 @@ export default class AppMe extends Component {
     render() {
         return (
             <div style={{width:'100%'}}>
-                <div style={{position:'relative'}}>
+                    <NavBar
+                    style={{backgroundColor:'#3fcccb',color:'white'}}
+                    rightContent={[
+                        // <p className="appshop_icon"></p>
+                        <img src={shezhi} style={{width:'30px'}}/>
+                    ]}
+                    >我的</NavBar>
+                {/* <div style={{position:'relative'}}>
                     <p className="apphome_top">我的</p>
                     <a><p className="appme_icon"></p></a>
-                </div>
+                </div> */}
 
                 <img src={imm} style={{width:'100%'}} />
 

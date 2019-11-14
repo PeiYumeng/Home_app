@@ -12,6 +12,8 @@ import dizhi from './地址.png'
 import { Flex} from 'antd-mobile';
 import s from './商城_05.jpg'
 import ss from './商城_07.jpg'
+import appshop_icon from './购物车.png'
+import { NavBar, Icon, Tabs } from 'antd-mobile';
 const sss =[s,ss]
 const data = Array.from(new Array(10)).map((_val, i) => ({
   icon: 'https://gw.alipayobjects.com/zos/rmsportal/nywPmnTAvTmLusPxHPSu.png',
@@ -51,10 +53,13 @@ export default class AppShop extends Component {
     render() {
         return (
             <div style={{width:'100%'}}>
-                <div style={{position:'relative'}}>
-                    <p className="apphome_top">商城</p>
-                    <p className="appshop_icon"></p>
-                </div>
+                    <NavBar
+                    style={{backgroundColor:'#3fcccb',color:'white'}}
+                    rightContent={[
+                        // <p className="appshop_icon"></p>
+                        <img src={appshop_icon} style={{width:'30px'}}/>
+                    ]}
+                    >商城</NavBar>
                 <WingBlank style={{width:'100%',marginLeft:"0px",position:'relative'}}>
                         <Carousel
                         autoplay={false}

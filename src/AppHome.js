@@ -7,6 +7,7 @@ import { Flex, WhiteSpace } from 'antd-mobile';
 import f1 from './住吧首页_05.jpg'
 import f2 from './住吧首页_07.jpg'
 import f3 from './住吧首页_09.jpg'
+import { NavBar, Icon, Tabs } from 'antd-mobile';
 const PlaceHolder = ({ className = '', ...restProps }) => (
     <div className={`${className} placeholder`} {...restProps}>Block</div>
   );
@@ -26,8 +27,13 @@ export default class AppHome extends Component {
     render() {
         return (
             <div style={{width:'100%'}}>
-                <p className="apphome_top">住吧家具</p>
-                    
+                {/* <p className="apphome_top">住吧家具</p> */}
+                <NavBar
+                    style={{backgroundColor:'#3fcccb',color:'white'}}
+                    rightContent={[
+                        // <Icon key="0" type="search" style={{ color:'white', marginRight: '16px' }} />,
+                    ]}
+                    >住吧家具</NavBar>
                     <WingBlank style={{width:'100%',marginLeft:"0px"}}>
                         <Carousel
                         autoplay={false}

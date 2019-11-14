@@ -31,11 +31,11 @@ export default class AppInspiration extends Component {
         return (
             <div style={{width:'100%'}}>
                 <NavBar
-                    style={{backgroundColor:'#3fcccb',color:'white',height:'88px'}}
+                    style={{backgroundColor:'#3fcccb',color:'white'}}
                     rightContent={[
                         <Icon key="0" type="search" style={{ color:'white', marginRight: '16px' }} />,
                     ]}
-                    ><p className="apphome_top">灵感</p></NavBar>
+                    >灵感</NavBar>
                 <Tabs tabs={tabs2}
                     initialPage={0}
                     tabBarUnderlineStyle={{border:'0px solid #ffdb2c'}}
